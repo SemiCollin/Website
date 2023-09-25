@@ -2,6 +2,7 @@ import React from "react";
 import "./header.css";
 import CTA from "./CTA";
 import Socials from "./Socials";
+import Me from "../../assets/Collin.png";
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
         <Socials />
 
         <div className="me">
-          <img src="" alt="" />
+          <img src={Me} alt="Collin Kwan" />
         </div>
 
         <a href="#contact" className="scroll__down">
